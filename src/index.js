@@ -1,14 +1,5 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-class Layout extends Component {
-	render() {
-		return <p>Hello Portfolio!</p>;
-	}
-}
-
-// ========================================
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Layout />);
+ReactDOM.render(<App />, document.getElementById("root"));
