@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 function App() {
 	return (
-		<div>
+		<div className="flex flex-col ...">
 			<Header />
 			<Content />
 			<Footer />
